@@ -1,4 +1,5 @@
-﻿do{
+﻿do
+{
     Console.Write("Ingrese un numero: ");
     var numero = int.Parse(Console.ReadLine());
 
@@ -10,7 +11,7 @@
     {
         Console.WriteLine("Es impar");
     }
-}while(true)
+} while (true);
 
 
 
